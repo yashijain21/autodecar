@@ -44,7 +44,7 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">KONTAKT</h3>
             <ul className="space-y-2 text-sm">
 <li>Berlin, Deutschland</li>
-<li>Telefon: +49 30 123 4567</li>
+<li>Telefon: +49 1521 4871490</li>
 <li>E-Mail: support@autodecar.de</li>
             </ul>
           </div>

@@ -7,6 +7,7 @@ import ProcessSection from "../components/ProcessSection";
 import SellCar from "./SellCar";
 import FAQ from "../components/FAQ";
 import AboutUs from "../components/AboutUs";
+import Buy from "../components/Buy";
 const cars = [
   {
     title: "2020 BMW 3 Series",
@@ -29,6 +30,7 @@ export default function Home() {
       <Hero />
       <ProcessSection />
       <AboutUs/>
+      <Buy/>
       <SellCar/>
       
 <section className="w-full bg-white py-5 px-20">
