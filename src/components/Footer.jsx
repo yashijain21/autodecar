@@ -8,8 +8,9 @@ export default function Footer() {
           <div>
             <h2 className="text-2xl font-bold text-white mb-4">AUTODECAR</h2>
             <p className="text-sm mb-6">
-              Premiumplattform för smidig och säker bilförsäljning i Sverige.
-            </p>
+  Premium-Plattform für einen reibungslosen und sicheren Autoverkauf in Deutschland.
+</p>
+
 
             <div className="flex space-x-4">
               <a className="hover:text-white transition" href="#"><i className="fab fa-facebook-f"></i></a>
@@ -24,27 +25,27 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">INFORMATION</h3>
             <ul className="space-y-2 text-sm">
               <li className="hover:text-white cursor-pointer">
-                <a href="#about">Om Oss</a>
+                <a href="#about">Über Uns</a>
               </li>
               <li className="hover:text-white cursor-pointer">
-                <a href="#process">Så fungerar det</a>
+                <a href="#process">So Funktioniert Es</a>
               </li>
               <li className="hover:text-white cursor-pointer">
-                <a href="#faq">Vanliga Frågor</a>
+                <a href="#faq">Häufig Gestellte Fragen</a>
               </li>
               <li className="hover:text-white cursor-pointer">
-                <a href="#sell-car">Sälj Din Bil</a>
+                <a href="#sell-car">Auto Verkaufen</a>
               </li>
             </ul>
           </div>
 
           {/* Contact Us */}
           <div>
-            <h3 className="text-white font-semibold mb-4">KONTAKTA OSS</h3>
+            <h3 className="text-white font-semibold mb-4">KONTAKT</h3>
             <ul className="space-y-2 text-sm">
-              <li>Stockholm, Sverige</li>
-              <li>Telefon: +46 740 123 456</li>
-              <li>Email: support@autodecar.se</li>
+<li>Berlin, Deutschland</li>
+<li>Telefon: +49 30 123 4567</li>
+<li>E-Mail: support@autodecar.de</li>
             </ul>
           </div>
 
@@ -52,7 +53,7 @@ export default function Footer() {
 
         {/* Bottom Line */}
         <div className="border-t border-gray-700 mt-10 pt-6 text-center">
-          <p className="text-sm text-gray-400">© {new Date().getFullYear()} AutoDecar. Alla rättigheter förbehållna.</p>
+          <p className="text-sm text-gray-400">© {new Date().getFullYear()} AutoDecar. Alle Rechte vorbehalten.</p>
         </div>
       </div>
     </footer>

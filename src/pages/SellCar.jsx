@@ -31,8 +31,8 @@ export default function SellCar() {
         form,
         "Oj3OfdISRwW-zsy6p"
       )
-      .then(() => alert("Förfrågan skickad!"))
-      .catch(() => alert("Misslyckades att skicka förfrågan"));
+      .then(() => alert("Anfrage erfolgreich gesendet!"))
+      .catch(() => alert("Fehler beim Senden der Anfrage"));
   }
 
   return (
@@ -49,7 +49,7 @@ export default function SellCar() {
         <div className="max-w-3xl mx-auto bg-white/70 shadow-xl backdrop-blur-md rounded-2xl p-10">
           {/* Title */}
           <h1 className="text-3xl font-semibold text-gray-800 mb-8 text-center">
-            Sälj Din Bil
+            Verkaufen Sie Ihr Auto
           </h1>
 
           <form className="grid grid-cols-1 gap-6" onSubmit={sendEmail}>
@@ -58,10 +58,9 @@ export default function SellCar() {
               <input
                 className="input-field p-2 border border-gray-300 rounded-lg"
                 name="name"
-                placeholder="Fullständigt Namn"
+                placeholder="Vollständiger Name"
                 onChange={handleChange}
               />
-
               <input
                 className="input-field p-2 border border-gray-300 rounded-lg"
                 name="phone"
@@ -75,14 +74,13 @@ export default function SellCar() {
               <input
                 className="input-field p-2 border border-gray-300 rounded-lg"
                 name="email"
-                placeholder="E-post"
+                placeholder="E-Mail"
                 onChange={handleChange}
               />
-
               <input
                 className="input-field p-2 border border-gray-300 rounded-lg"
                 name="city"
-                placeholder="Stad"
+                placeholder="Stadt"
                 onChange={handleChange}
               />
             </div>
@@ -92,14 +90,13 @@ export default function SellCar() {
               <input
                 className="input-field p-2 border border-gray-300 rounded-lg"
                 name="brand"
-                placeholder="Bilmärke"
+                placeholder="Automarke"
                 onChange={handleChange}
               />
-
               <input
                 className="input-field p-2 border border-gray-300 rounded-lg"
                 name="model"
-                placeholder="Bilmodell"
+                placeholder="Automodell"
                 onChange={handleChange}
               />
             </div>
@@ -109,14 +106,13 @@ export default function SellCar() {
               <input
                 className="input-field p-2 border border-gray-300 rounded-lg"
                 name="year"
-                placeholder="Årsmodell"
+                placeholder="Baujahr"
                 onChange={handleChange}
               />
-
               <input
                 className="input-field p-2 border border-gray-300 rounded-lg"
                 name="km"
-                placeholder="Körsträcka (KM)"
+                placeholder="Kilometerstand (KM)"
                 onChange={handleChange}
               />
             </div>
@@ -125,7 +121,7 @@ export default function SellCar() {
             <input
               className="input-field p-2 border border-gray-300 rounded-lg"
               name="price"
-              placeholder="Prisförslag"
+              placeholder="Preisvorstellung"
               onChange={handleChange}
             />
 
@@ -135,10 +131,10 @@ export default function SellCar() {
               name="condition"
               onChange={handleChange}
             >
-              <option value="">Välj Skick</option>
-              <option>Utmärkt</option>
-              <option>Bra</option>
-              <option>Genomsnittligt</option>
+              <option value="">Zustand auswählen</option>
+              <option>Ausgezeichnet</option>
+              <option>Gut</option>
+              <option>Durchschnittlich</option>
             </select>
 
             {/* Submit */}
@@ -146,7 +142,7 @@ export default function SellCar() {
               type="submit"
               className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 rounded-lg shadow-md transition"
             >
-              Skicka Förfrågan
+              Anfrage Senden
             </button>
           </form>
         </div>

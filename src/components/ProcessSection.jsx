@@ -3,20 +3,20 @@ import React from "react";
 const steps = [
   {
     id: "01",
-    title: "Få pris online",
-    desc: "Besvara några frågor om din bil för att hjälpa oss förstå dess skick",
+    title: "Online-Preis erhalten",
+    desc: "Beantworten Sie einige Fragen zu Ihrem Auto, damit wir dessen Zustand besser verstehen können",
     img: "https://assets.cars24.com/production/c2b-website/251124134557/js/93232cdf3e0a7a029932ebf6b4a3563b.jpg",
   },
   {
     id: "02",
-    title: "Bilinspektion",
-    desc: "Vår bilexpert kommer att fysiskt kontrollera bilens skick och ge dig slutgiltigt erbjudande",
+    title: "Autoinspektion",
+    desc: "Unser Autoexperte überprüft den Zustand Ihres Fahrzeugs vor Ort und unterbreitet Ihnen ein endgültiges Angebot",
     img: "https://assets.cars24.com/production/c2b-website/251124134557/js/281d2157126e4b58778fb27d76a6cc3f.jpg",
   },
   {
     id: "03",
-    title: "Bilupphämtning & betalning",
-    desc: "Vi överför beloppet direkt till ditt bankkonto innan din bil hämtas",
+    title: "Abholung & Zahlung",
+    desc: "Wir überweisen den Betrag direkt auf Ihr Bankkonto, bevor Ihr Auto abgeholt wird",
     img: "https://assets.cars24.com/production/c2b-website/251124134557/js/aaea1de2dc367c5611765b63de0e7d97.jpg",
   },
 ];
@@ -26,7 +26,7 @@ export default function ProcessSection() {
     <section className="w-full py-16" id="process">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-gray-800 mb-10">
-          Processen för att sälja begagnad bil
+          Prozess zum Verkauf eines Gebrauchtwagens
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">

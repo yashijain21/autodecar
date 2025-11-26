@@ -2,39 +2,39 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "Hur går processen till för att sälja min bil?",
+    question: "Wie funktioniert der Prozess, mein Auto zu verkaufen?",
     answer:
-      "Du börjar med att dela information om din bil online. Därefter inspekteras och värderas bilen. När du accepterar det erbjudna priset behandlas betalningen och bilen hämtas från din plats i Sverige."
+      "Sie beginnen damit, Informationen zu Ihrem Auto online zu teilen. Anschließend wird das Auto inspiziert und bewertet. Sobald Sie den angebotenen Preis akzeptieren, wird die Zahlung verarbeitet und das Auto von Ihrem Standort in Schweden abgeholt."
   },
   {
-    question: "Hur fungerar bilinspektion och värdering?",
+    question: "Wie funktioniert die Autoinspektion und Bewertung?",
     answer:
-      "En professionell inspektion görs för att kontrollera bilens skick, historik och marknadsvärde i Sverige. Baserat på dessa faktorer erbjuds ett slutgiltigt pris."
+      "Eine professionelle Inspektion prüft den Zustand, die Historie und den Marktwert des Autos in Schweden. Basierend auf diesen Faktoren wird ein endgültiges Angebot gemacht."
   },
   {
-    question: "Hur görs bilförsäljningen säker och smidig?",
+    question: "Wie wird der Autoverkauf sicher und bequem gestaltet?",
     answer:
-      "Processen inkluderar verifierade inspektioner, säkra digitala avtal, trygg betalning och smidig upphämtning var som helst i Sverige."
+      "Der Prozess umfasst verifizierte Inspektionen, sichere digitale Verträge, zuverlässige Zahlungen und eine reibungslose Abholung überall in Schweden."
   },
   {
-    question: "Vad innebär säljarskyddspolicyn?",
+    question: "Was beinhaltet die Verkäuferschutzrichtlinie?",
     answer:
-      "Säljarskyddet säkerställer att all juridisk dokumentation, ägarbyte och ansvar efter försäljning hanteras på ett säkert sätt, vilket förhindrar framtida problem för säljaren."
+      "Der Verkäuferschutz stellt sicher, dass alle rechtlichen Unterlagen, Eigentumsübertragungen und Verantwortlichkeiten nach dem Verkauf sicher abgewickelt werden, um zukünftige Probleme für den Verkäufer zu vermeiden."
   },
   {
-    question: "Vilka är fördelarna med säljarskyddspolicyn?",
+    question: "Welche Vorteile bietet die Verkäuferschutzrichtlinie?",
     answer:
-      "Den täcker säker betalning, juridiskt ägarbyte, skydd mot framtida trafikböter och verifierad dokumentation enligt svenska fordonsregler."
+      "Sie umfasst sichere Zahlungen, rechtliche Eigentumsübertragungen, Schutz vor zukünftigen Verkehrsstrafen und verifizierte Dokumentation gemäß den schwedischen Fahrzeugvorschriften."
   },
   {
-    question: "Hur lång tid tar det att sälja min bil?",
+    question: "Wie lange dauert es, mein Auto zu verkaufen?",
     answer:
-      "De flesta bilar i Sverige säljs samma dag efter inspektion, beroende på efterfrågan, skick och tillgänglig dokumentation."
+      "Die meisten Autos in Schweden werden am selben Tag nach der Inspektion verkauft, abhängig von Nachfrage, Zustand und verfügbaren Dokumenten."
   },
   {
-    question: "Vad ska jag göra om min bil inte säljs inom förväntad tid?",
+    question: "Was soll ich tun, wenn mein Auto nicht innerhalb der erwarteten Zeit verkauft wird?",
     answer:
-      "Du kan uppdatera din annons, justera priset eller begära en ny värdering baserat på aktuella marknadstrender i Sverige."
+      "Sie können Ihre Anzeige aktualisieren, den Preis anpassen oder eine neue Bewertung basierend auf den aktuellen Markttrends in Schweden anfordern."
   }
 ];
 
@@ -45,7 +45,7 @@ export default function FAQ() {
     <section className="bg-gray-50 py-16 px-6" id="faq">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-800 mb-10">
-          Vanliga Frågor
+          Häufig Gestellte Fragen
         </h2>
 
         <div className="space-y-4">

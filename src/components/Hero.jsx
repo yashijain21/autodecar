@@ -8,7 +8,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
         <h1 className="text-4xl md:text-6xl text-white font-bold">
-          Sälj din bil enkelt och snabbt
+          Verkaufen Sie Ihr Auto einfach und schnell
         </h1>
       </div>
     </section>

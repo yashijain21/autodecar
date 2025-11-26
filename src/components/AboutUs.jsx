@@ -10,46 +10,46 @@ export default function AboutUs() {
               <img
                 src="https://spn-sta.spinny.com/blog/20220228140352/ezgif.com-gif-maker-12.jpg?compress=true&quality=80&w=1200&dpr=2.6"
                 className="rounded-xl shadow-md object-cover h-44 w-full"
-                alt="Bil"
+                alt="Auto"
               />
               <img
                 src="https://static-cdn.cars24.com/prod/auto-news24-cms/CARS24-Blog-Images/2025/06/20/f952587f-789e-4373-8154-d64560e694f2-pdi-revamped--2.jpg"
                 className="rounded-xl shadow-md object-cover h-44 w-full"
-                alt="Bilinspektion"
+                alt="Autoinspektion"
               />
             </div>
 
             <img
               src="https://article.images.consumerreports.org/image/upload/h_522,f_auto/prod/content/dam/product-experience/new-used-cars/cr-cars-inlinehero-bg-new-used-cars-0725"
               className="rounded-xl shadow-md object-cover h-56 w-full"
-              alt="Begagnade bilar banner"
+              alt="Gebrauchtwagen Banner"
             />
           </div>
 
           {/* RIGHT SIDE TEXT */}
           <div>
             <p className="text-sm tracking-widest text-[#ff6a00] font-semibold mb-2">
-              LITE
+              EIN BISSCHEN
             </p>
 
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              OM OSS
+              ÜBER UNS
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-6">
-              Vi förenklar processen att sälja och köpa bilar i hela Sverige. 
-              Med transparenta priser, pålitliga inspektioner och en smidig digital 
-              upplevelse är vårt mål att göra bilägande enklare, säkrare och mer bekvämt.
+              Wir vereinfachen den Prozess des Verkaufs und Kaufs von Autos in ganz Schweden. 
+              Mit transparenten Preisen, zuverlässigen Inspektionen und einem reibungslosen digitalen 
+              Erlebnis ist es unser Ziel, den Autobesitz einfacher, sicherer und komfortabler zu machen.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-8">
-              Oavsett om du uppgraderar, säljer snabbt eller söker efter rätt bil, 
-              kopplar vi dig med pålitliga köpare och verifierade fordon. Inga dolda 
-              avgifter, inget krångel — bara en smidig resa från början till slut.
+              Egal, ob Sie aufrüsten, schnell verkaufen oder nach dem richtigen Auto suchen, 
+              wir verbinden Sie mit vertrauenswürdigen Käufern und geprüften Fahrzeugen. 
+              Keine versteckten Gebühren, kein Ärger — nur eine nahtlose Reise von Anfang bis Ende.
             </p>
 
-            <button className="bg-[#ff6a00] hover:bg-purple-700 text-white px-8 py-3 rounded-xl shadow-lg transition">
-              Utforska Mer
+            <button className="bg-[#ff6a00] hover:bg-orange-700 text-white px-8 py-3 rounded-xl shadow-lg transition">
+              Mehr Entdecken
             </button>
           </div>
 
